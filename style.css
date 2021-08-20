@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>homepage</title>
-
-    <link rel="stylesheet" href="base_furniture/style.css" type="text/css" media="screen">
-
-<style>
 
     /* Style the tab */
 .tab {
@@ -125,67 +117,3 @@
 	font-size:0.8125em;
 	line-height:1.6153em
 }
-
-.img{
-    float:right;
-    
-    margin-right: 150px;
-    
-}
-
-.con {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #fbfbfb;
-  margin-left: auto;
-  margin-right: auto;
-  width: 960px;
-}
-</style>
-</head>
-
-
-    <body>
-
-        <!-- Tab links -->
-        <div class="tab">
-            <button class="tablinks" onclick="openCity(event, 'home')">Home</button>
-            <button class="tablinks" onclick="openCity(event, 'services')">services</button>
-            <button class="tablinks" onclick="openCity(event, 'gallery')">gallery</button>
-        </div>
-
-        <div class="row-2">
-            <div class="main">
-                <div class="container_12">
-                    <div class="grid_9">
-                    <h1> <a class="logo" href="index.html">BASEL<strong>I</strong>NE</a> <span>Design</span> </h1>
-                    </div>
-                    <div class="grid_3">
-                        <form id="search-form" action="#" method="post" enctype="multipart/form-data">
-                            <fieldset>
-                                <div class="search-field">
-                                <input name="search" type="text">
-                                <a class="search-button" href="#"><span>search</span></a> </div>
-                            </fieldset>
-                        </form>
-                    </div>
-                <div class="clear"></div>
-            </div>
-            </div>
-        </div>
-
-        <div class="con">
-             <img src = "base.jpg" class = "img"></img>
-            
-        </div>
-    
-    </body>
-
-
-
-
-
-
-
-
-</html>
